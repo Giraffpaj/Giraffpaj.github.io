@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+.button {
+  background-color: #000000;
+  border: none;
+  border-radius: 25px;
+  color: #777777;
+  padding: 50px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 70px;
+  font-family: 'press start 2p', sans-serif;
+  cursor: pointer;
+}
+
+.button-container {
+  margin: 20px;
+}
+
+.boxGeneral {
+  background-color:black;
+  height: 10px;
+  width: calc(100/12*1vw);
+}
+
+.button:active{
+  background-color:"green";  
+}
+
+.row {
+}
+
